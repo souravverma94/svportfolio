@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/svportfolio/static/css/main.eafbc014.chunk.css",
-    "main.js": "/svportfolio/static/js/main.d358b5e6.chunk.js",
-    "main.js.map": "/svportfolio/static/js/main.d358b5e6.chunk.js.map",
+    "main.js": "/svportfolio/static/js/main.297897a7.chunk.js",
+    "main.js.map": "/svportfolio/static/js/main.297897a7.chunk.js.map",
     "runtime-main.js": "/svportfolio/static/js/runtime-main.9f1a66a5.js",
     "runtime-main.js.map": "/svportfolio/static/js/runtime-main.9f1a66a5.js.map",
-    "static/js/2.d1e29b3d.chunk.js": "/svportfolio/static/js/2.d1e29b3d.chunk.js",
-    "static/js/2.d1e29b3d.chunk.js.map": "/svportfolio/static/js/2.d1e29b3d.chunk.js.map",
+    "static/js/2.7b87662a.chunk.js": "/svportfolio/static/js/2.7b87662a.chunk.js",
+    "static/js/2.7b87662a.chunk.js.map": "/svportfolio/static/js/2.7b87662a.chunk.js.map",
     "index.html": "/svportfolio/index.html",
-    "precache-manifest.ed15bf379a304cb2b241ba8435647819.js": "/svportfolio/precache-manifest.ed15bf379a304cb2b241ba8435647819.js",
+    "precache-manifest.73cbfb5318023c49906ae55513a98877.js": "/svportfolio/precache-manifest.73cbfb5318023c49906ae55513a98877.js",
     "service-worker.js": "/svportfolio/service-worker.js",
     "static/css/main.eafbc014.chunk.css.map": "/svportfolio/static/css/main.eafbc014.chunk.css.map",
-    "static/js/2.d1e29b3d.chunk.js.LICENSE.txt": "/svportfolio/static/js/2.d1e29b3d.chunk.js.LICENSE.txt",
+    "static/js/2.7b87662a.chunk.js.LICENSE.txt": "/svportfolio/static/js/2.7b87662a.chunk.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.d76c772b.worker.js": "/svportfolio/static/js/pdf.worker.entry.d76c772b.worker.js",
+    "static/js/pdf.worker.entry.d76c772b.worker.js.LICENSE.txt": "/svportfolio/static/js/pdf.worker.entry.d76c772b.worker.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.d76c772b.worker.js.map": "/svportfolio/static/js/pdf.worker.entry.d76c772b.worker.js.map",
+    "static/media/resume.pdf": "/svportfolio/static/media/resume.ae17cb97.pdf",
     "static/media/sv.png": "/svportfolio/static/media/sv.e4562f23.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9f1a66a5.js",
-    "static/js/2.d1e29b3d.chunk.js",
+    "static/js/2.7b87662a.chunk.js",
     "static/css/main.eafbc014.chunk.css",
-    "static/js/main.d358b5e6.chunk.js"
+    "static/js/main.297897a7.chunk.js"
   ]
 }
