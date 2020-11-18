@@ -1,0 +1,8 @@
+.nav-bar {
+  background-color: rgb(0 0 0 / 51%);
+  padding: 0px 5px;
+}
+
+.nav-bar .brand-logo {
+  font-size: medium;
+}

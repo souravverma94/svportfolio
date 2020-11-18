@@ -1,18 +1,22 @@
-body{
-  background-color: #607d8b;
+body {
+  background: rgb(99, 18, 153);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 18, 153, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgb(0 168 129) 100%
+  );
 }
 
-.App {
+.app-content {
   text-align: center;
 }
-.App header{
-  color: antiquewhite;
-  font-family: 'Courier New', Courier, monospace;
+.App header {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 }
-.App img{
+.App img {
   width: 200px;
   border-radius: 50%;
   margin-top: 10px;
 }
-
-
