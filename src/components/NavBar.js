@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Icon, NavItem } from "react-materialize";
 import "./NavBar.css";
 
-export const NavBar = () => {
+export const NavBar = ({ changeView }) => {
   return (
     <>
       <Navbar
@@ -27,8 +27,8 @@ export const NavBar = () => {
           preventScrolling: true,
         }}
       >
-        <NavItem href="">Resume</NavItem>
-        <NavItem href="">Projects</NavItem>
+        <NavItem onClick={() => changeView("resume")}>Resume</NavItem>
+        <NavItem>Projects</NavItem>
         <NavItem>Contact</NavItem>
       </Navbar>
     </>
