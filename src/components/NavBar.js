@@ -9,7 +9,7 @@ export const NavBar = ({ changeView }) => {
         className="nav-bar"
         alignLinks="right"
         brand={
-          <a className="brand-logo" href="">
+          <a className="brand-logo" href="home">
             My Portfolio
           </a>
         }
@@ -28,8 +28,8 @@ export const NavBar = ({ changeView }) => {
         }}
       >
         <NavItem onClick={() => changeView("resume")}>Resume</NavItem>
-        <NavItem>Projects</NavItem>
-        <NavItem>Contact</NavItem>
+        {/* <NavItem onClick={() => changeView("projects")}>Projects</NavItem>
+        <NavItem onClick={() => changeView("contact")}>Contact</NavItem> */}
       </Navbar>
     </>
   );

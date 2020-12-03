@@ -1,11 +1,15 @@
 body {
-  background: rgb(99, 18, 153);
+  background: #24c6dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #514a9d,
+    #24c6dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    90deg,
-    rgba(99, 18, 153, 1) 0%,
-    rgba(0, 0, 0, 1) 50%,
-    rgb(0 168 129) 100%
-  );
+    to right,
+    #514a9d,
+    #06a1b6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .app-content {
@@ -19,4 +23,10 @@ body {
   width: 200px;
   border-radius: 50%;
   margin-top: 10px;
+}
+
+.contact-links i {
+  color: white;
+  font-size: 3em;
+  margin: 0px 20px;
 }
