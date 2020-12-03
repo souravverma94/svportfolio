@@ -9,7 +9,7 @@ export const NavBar = ({ changeView }) => {
         className="nav-bar"
         alignLinks="right"
         brand={
-          <a className="brand-logo" href="home">
+          <a className="brand-logo" href="/svportfolio">
             My Portfolio
           </a>
         }
