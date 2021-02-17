@@ -12,13 +12,17 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .app-content {
+  margin: 20px;
   text-align: center;
+  color: #fff;
 }
-.App header {
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-}
+
 .App img {
   width: 200px;
   border-radius: 50%;
@@ -29,4 +33,22 @@ body {
   color: white;
   font-size: 3em;
   margin: 0px 20px;
+}
+
+p#name {
+  font-family: monospace;
+  font-size: 35px;
+  margin: auto;
+}
+
+p#title {
+  font-family: monospace;
+  font-size: 35px;
+  margin: auto;
+}
+
+p#skills {
+  font-family: monospace;
+  font-size: 20px;
+  margin: auto;
 }

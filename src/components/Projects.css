@@ -1,0 +1,60 @@
+.projectTabs .tab a:focus,
+.projectTabs .tab a:focus.active {
+  background-color: rgb(0 188 212 / 29%);
+}
+
+.projectTabs .tab a:hover,
+.projectTabs .tab a.active {
+  color: #6ed6eede;
+}
+
+.projectTabs .indicator {
+  background-color: #b2dbf6;
+  color: white;
+}
+
+.projectTabs {
+  background-color: rgb(0 0 0 / 51%);
+}
+
+.projectTabs .tab a {
+  color: #ffffffd1;
+}
+
+.tabrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tabcol {
+  margin: auto;
+  max-width: 360px;
+}
+
+.projCard {
+  background-color: #3520204d;
+  color: #fff;
+  box-shadow: none;
+}
+
+.projCard:hover {
+  margin-top: 5px;
+  margin-left: -5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+  transition: all 0.5s ease-in;
+}
+
+.projCard::after {
+  margin-top: 0px;
+  margin-left: 0px;
+  box-shadow: none;
+  transition: all 0.5s ease-in;
+}
+
+.action-link {
+  color: #fff !important;
+}
+.action-link:hover {
+  color: #52b8cd !important;
+}

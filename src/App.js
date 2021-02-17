@@ -17,27 +17,16 @@ export const App = () => {
     <div className="App">
       <NavBar changeView={handleViewChange} />
       {renderIf(view === "home")(
-        <header>
+        <div id="bio">
           <div className="app-content">
             <img src={profileImage} alt="display" />
-            <h3>Sourav Verma</h3>
-            <h4>
-              ReactJS | Redux | JavaScript | Babel | Webpack | C++ | Ruby | REST
-            </h4>
-            <p style={{ fontSize: "large" }}>
-              I am a graduate student pursuing an MS in Computer Science at
-              Texas Tech University. Before this, I have worked as Software
-              Engineer at Cerner Corporation for 3+ years. Developing reusable
-              and scalable clinical UI components using React, Redux, and
-              designing Restful APIs using Java, JAX-RS framework, and
-              supporting existing Visual C++ and MFC applications were my
-              primary responsibilities in Cerner. After two years, I got
-              promoted to Associate Senior Software Engineer at Cerner.
-              Currently, I am working at Copart as Software Engineer Intern. My
-              primary responsibilities are designing and developing reusable and
-              scalable UI components using Javascript, React, and Redux and
-              creating REST Apis using Ruby and Sinatra framework.
+            <p id="name">Sourav Verma</p>
+            <p id="title">Full Stack Developer</p>
+            <p id="skills">
+              ReactJS | JavaScript | C++ | Java | Python| REST | Ruby | Babel |
+              NodeJS | Express| Webpack
             </p>
+            <br />
             <div className="contact-links">
               {/* LinkedIn */}
               <a
@@ -45,7 +34,7 @@ export const App = () => {
                 rel="noopener noreferrer"
                 target="blank"
               >
-                <i class="fab fa-linkedin" aria-hidden="true" />
+                <i className="fab fa-linkedin" aria-hidden="true" />
               </a>
               {/* Github */}
               <a
@@ -53,7 +42,7 @@ export const App = () => {
                 rel="noopener noreferrer"
                 target="blank"
               >
-                <i class="fab fa-github" aria-hidden="true" />
+                <i className="fab fa-github" aria-hidden="true" />
               </a>
               {/* Email */}
               <a
@@ -61,11 +50,11 @@ export const App = () => {
                 rel="noopener noreferrer"
                 target="blank"
               >
-                <i class="fas fa-envelope-open-text" aria-hidden="true" />
+                <i className="fas fa-envelope-open-text" aria-hidden="true" />
               </a>
             </div>
           </div>
-        </header>
+        </div>
       )}
       {renderIf(view === "resume")(<Resume />)}
       {renderIf(view === "projects")(<Projects />)}

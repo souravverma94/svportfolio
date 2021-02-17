@@ -28,8 +28,8 @@ export const NavBar = ({ changeView }) => {
         }}
       >
         <NavItem onClick={() => changeView("resume")}>Resume</NavItem>
-        {/* <NavItem onClick={() => changeView("projects")}>Projects</NavItem>
-        <NavItem onClick={() => changeView("contact")}>Contact</NavItem> */}
+        <NavItem onClick={() => changeView("projects")}>Projects</NavItem>
+        {/*<NavItem onClick={() => changeView("contact")}>Contact</NavItem> */}
       </Navbar>
     </>
   );
