@@ -1,27 +1,34 @@
 {
   "files": {
-    "main.css": "/svportfolio/static/css/main.53d23800.chunk.css",
-    "main.js": "/svportfolio/static/js/main.8829c398.chunk.js",
-    "main.js.map": "/svportfolio/static/js/main.8829c398.chunk.js.map",
+    "main.css": "/svportfolio/static/css/main.f62829bf.chunk.css",
+    "main.js": "/svportfolio/static/js/main.3d5fab2f.chunk.js",
+    "main.js.map": "/svportfolio/static/js/main.3d5fab2f.chunk.js.map",
     "runtime-main.js": "/svportfolio/static/js/runtime-main.9f1a66a5.js",
     "runtime-main.js.map": "/svportfolio/static/js/runtime-main.9f1a66a5.js.map",
-    "static/js/2.3e2c1bb5.chunk.js": "/svportfolio/static/js/2.3e2c1bb5.chunk.js",
-    "static/js/2.3e2c1bb5.chunk.js.map": "/svportfolio/static/js/2.3e2c1bb5.chunk.js.map",
+    "static/js/2.c836d741.chunk.js": "/svportfolio/static/js/2.c836d741.chunk.js",
+    "static/js/2.c836d741.chunk.js.map": "/svportfolio/static/js/2.c836d741.chunk.js.map",
     "index.html": "/svportfolio/index.html",
-    "precache-manifest.44accb831c5411eea2391cf8d688a25a.js": "/svportfolio/precache-manifest.44accb831c5411eea2391cf8d688a25a.js",
+    "precache-manifest.9e51cbbd73c8780febfdbbc338f69fab.js": "/svportfolio/precache-manifest.9e51cbbd73c8780febfdbbc338f69fab.js",
     "service-worker.js": "/svportfolio/service-worker.js",
-    "static/css/main.53d23800.chunk.css.map": "/svportfolio/static/css/main.53d23800.chunk.css.map",
-    "static/js/2.3e2c1bb5.chunk.js.LICENSE.txt": "/svportfolio/static/js/2.3e2c1bb5.chunk.js.LICENSE.txt",
-    "static/js/pdf.worker.entry.d9951f31.worker.js": "/svportfolio/static/js/pdf.worker.entry.d9951f31.worker.js",
-    "static/js/pdf.worker.entry.d9951f31.worker.js.LICENSE.txt": "/svportfolio/static/js/pdf.worker.entry.d9951f31.worker.js.LICENSE.txt",
-    "static/js/pdf.worker.entry.d9951f31.worker.js.map": "/svportfolio/static/js/pdf.worker.entry.d9951f31.worker.js.map",
+    "static/css/main.f62829bf.chunk.css.map": "/svportfolio/static/css/main.f62829bf.chunk.css.map",
+    "static/js/2.c836d741.chunk.js.LICENSE.txt": "/svportfolio/static/js/2.c836d741.chunk.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.d76c772b.worker.js": "/svportfolio/static/js/pdf.worker.entry.d76c772b.worker.js",
+    "static/js/pdf.worker.entry.d76c772b.worker.js.LICENSE.txt": "/svportfolio/static/js/pdf.worker.entry.d76c772b.worker.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.d76c772b.worker.js.map": "/svportfolio/static/js/pdf.worker.entry.d76c772b.worker.js.map",
+    "static/media/MarkDownPreviewer.gif": "/svportfolio/static/media/MarkDownPreviewer.5504818f.gif",
+    "static/media/card.gif": "/svportfolio/static/media/card.beb8d40a.gif",
+    "static/media/css12.gif": "/svportfolio/static/media/css12.a32810fb.gif",
+    "static/media/css84.gif": "/svportfolio/static/media/css84.819d950b.gif",
+    "static/media/insta.gif": "/svportfolio/static/media/insta.7f48c84a.gif",
+    "static/media/random-quote.gif": "/svportfolio/static/media/random-quote.8091b3a3.gif",
     "static/media/resume.pdf": "/svportfolio/static/media/resume.ae17cb97.pdf",
-    "static/media/sv.png": "/svportfolio/static/media/sv.e4562f23.png"
+    "static/media/sv.png": "/svportfolio/static/media/sv.e4562f23.png",
+    "static/media/worm.gif": "/svportfolio/static/media/worm.d6817a1e.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.9f1a66a5.js",
-    "static/js/2.3e2c1bb5.chunk.js",
-    "static/css/main.53d23800.chunk.css",
-    "static/js/main.8829c398.chunk.js"
+    "static/js/2.c836d741.chunk.js",
+    "static/css/main.f62829bf.chunk.css",
+    "static/js/main.3d5fab2f.chunk.js"
   ]
 }
