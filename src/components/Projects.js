@@ -113,7 +113,7 @@ const Projects = () => {
             </div>
             <div class="tabcol">
               <ProjectCard
-                desc={"Playing Card Rank & Suite Detector"}
+                desc={"Playing Card Rank & Suit Detector"}
                 actionlinks={[
                   {
                     name: "Github",
@@ -123,7 +123,7 @@ const Projects = () => {
                   {
                     name: "Demo",
                     link:
-                      "https://github.com/souravverma94/card_rank_suit_detector/blob/main/Demo.gif",
+                      "https://texastechuniversity-my.sharepoint.com/:v:/g/personal/sourav_verma_ttu_edu/EfKLDBCDjwtCiI8rPE0GztsBBGI2m6c-FyauZ8vw-Na0PQ",
                   },
                 ]}
                 imgsrc={card}
