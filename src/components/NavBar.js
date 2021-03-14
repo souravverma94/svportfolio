@@ -27,7 +27,15 @@ export const NavBar = ({ changeView }) => {
           preventScrolling: true,
         }}
       >
-        <NavItem onClick={() => changeView("resume")}>Resume</NavItem>
+        <NavItem>
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://drive.google.com/file/d/1WjGLGrdzHXpxXebvK6d0AMuO8UdC3XkW/view?usp=sharing"
+          >
+            Resume
+          </a>
+        </NavItem>
         <NavItem onClick={() => changeView("projects")}>Projects</NavItem>
         {/*<NavItem onClick={() => changeView("contact")}>Contact</NavItem> */}
       </Navbar>
